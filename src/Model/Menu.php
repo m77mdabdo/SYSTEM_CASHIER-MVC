@@ -21,7 +21,7 @@ class Menu extends Model {
     }
 
     public function create($menuData) {
-        // تحقق من الحقول المطلوبة
+        // Check the required fields
         if (
             empty($menuData['category_id']) || 
             empty($menuData['code']) || 
