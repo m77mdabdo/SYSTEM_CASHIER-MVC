@@ -2,17 +2,17 @@
 
 <style>
     body {
-        background-image: url('uploads/2.jpg'); /* المسار الصحيح للصورة */
+        background-image: url('uploads/2.jpg'); /* Image path */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .card {
-        background-color: rgba(255, 255, 255, 0.9); /* شفافية بسيطة */
+        background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
         border-radius: 10px;
-        max-width: 450px; /* تحديد عرض أقصى للنموذج */
-        margin: auto; /* لضبط النموذج في وسط الصفحة */
+        max-width: 450px; /* Max width for the form */
+        margin: auto; /* Center the form on the page */
     }
 
     label sub {
@@ -20,15 +20,15 @@
     }
 
     .form-control-lg {
-        padding: 0.75rem 1.25rem; /* تعديل المسافات الداخلية */
+        padding: 0.75rem 1.25rem; /* Inner padding */
     }
 
     .form-group {
-        margin-bottom: 1rem; /* تقليص المسافة بين العناصر */
+        margin-bottom: 1rem; /* Reduce the space between elements */
     }
 
     .btn-block {
-        margin-bottom: 0.5rem; /* تقليص المسافة بين الأزرار */
+        margin-bottom: 0.5rem; /* Reduce the space between buttons */
     }
 </style>  
 
